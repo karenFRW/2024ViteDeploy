@@ -10,9 +10,24 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
+      path: '/week1',
+      name: 'week1',
+      component: () => import('../views/Week1View.vue')
+    },
+    {
+      path: '/week2',
+      name: 'week2',
+      component: () => import('../views/Week2View.vue')
+    },
+    {
+      path: '/week3',
+      name: 'week3',
+      component: () => import('../views/Week3View.vue')
+    },
+    {
+      path: '/week4',
+      name: 'week4',
+      component: () => import('../views/Week4View.vue')
     }
   ]
 })

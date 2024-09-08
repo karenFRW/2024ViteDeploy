@@ -1,5 +1,9 @@
 <template>
   <div>
+    <h1>Week2</h1>
+    <h3>串接 API</h3>
+  </div>
+  <div>
     <h2>註冊 Sign Up</h2>
     <input v-model="emailSignUp" placeholder="Email" />
     <input v-model="passwordSignUp" placeholder="Password" type="password" />

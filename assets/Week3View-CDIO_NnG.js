@@ -1,0 +1,1 @@
+import{_ as s,c as o,a as t,o as a}from"./index-XLGdEfaN.js";const c={},n={class:"about"};function r(_,e){return a(),o("div",n,e[0]||(e[0]=[t("h1",null,"This is Week3 page",-1)]))}const l=s(c,[["render",r]]);export{l as default};
